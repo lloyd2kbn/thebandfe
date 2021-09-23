@@ -173,10 +173,13 @@ html{
 }
 #content .content-section{
     width: 800px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 64px;
     padding-bottom: 64px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 #content .section-heading{
     text-align: center;
@@ -443,6 +446,10 @@ input.modal-input {
     cursor: pointer;
     
 }
+
+.map>img{
+    width: 100%;
+}
 /* Footer */
 #footer{
     padding: 64px 16px;
@@ -457,4 +464,25 @@ input.modal-input {
 .copy-right{
     margin-top: 16px;
     font-size: 12px;
+}
+/* RESPONSIVE TABLET*/
+@media(min-width:740px) and (max-width:1024px){
+    #header{
+        width: 100vw;
+    }
+    .map>img{
+        width: 100%;
+    }
+    .row{
+        margin-right: 0;
+    }
+
+}
+/* RESPONSIVE mobile*/
+@media(max-width:740px){
+    #nav li{
+        display: block;
+    }
+  
+
 }
