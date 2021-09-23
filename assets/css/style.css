@@ -74,6 +74,7 @@ html{
     left: 0;
     right: 0;
     z-index: 1;
+    overflow: hidden;
 }
 #nav li{
     display: inline-block;
@@ -133,7 +134,7 @@ html{
 .nav-arrow-down{
     font-size: 8px;
 }
-.search-btn{
+.search-btn,#header .mobile-menu-btn{
     float: right;
     color: white;
     padding-left: 20px;
@@ -142,9 +143,11 @@ html{
   
 
 }
-.search-btn .ti-search{
+.search-btn .ti-search,
+#header .mobile-menu-btn .ti-menu{
     line-height: 46px;
 }
+#header .mobile-menu-btn:hover,
 .search-btn:hover{
     background-color: red;
     cursor: pointer;
@@ -482,6 +485,9 @@ input.modal-input {
 @media(max-width:740px){
     #nav li{
         display: block;
+    }
+    #header .search-btn{
+        display: none;
     }
   
 
