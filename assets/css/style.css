@@ -22,6 +22,7 @@
 }
 .col-third{
     width: 33.3333%;
+    
 }
 .col-half{
     width: 50%;
@@ -209,7 +210,7 @@ html{
 }
 
 #content .member-list{
-    margin-top: 45px;
+    margin-top: 29px;
   
 }
 #content .member-name{
@@ -265,7 +266,7 @@ html{
 
 /* Places */
 .places-list{
-    margin-top: 32px;
+    margin-top: 16px;
     padding-bottom: 48px;
 }
 
@@ -523,6 +524,13 @@ input.modal-input {
         position: absolute;
         top: 0;
         right: 0;
+    }
+   
+    #content .member-img{
+        width: 60%;
+    }
+    .s-col-full{
+        width: 100%;
     }
   
 
