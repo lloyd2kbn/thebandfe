@@ -34,6 +34,9 @@
 .mt-16{
     margin-top: 16px !important;
 }
+.mt-32{
+    margin-top: 32px !important;
+}
 /* clear Float css */
 .clear{
     clear: both;
@@ -472,8 +475,30 @@ input.modal-input {
 .mobile-menu-btn{
     display: none;
 }
+/* RESPONSIVE TABLET & MOBIBLE */
+@media(max-width:63.9375em){
+    .place-but-btn{
+        padding: 14px 16px;
+    }
+    .contact-form .form-control{
+        padding: 15px;
+    }
+    .social-list a{
+        font-size: 48px;
+        margin: 0 5px;
+    }
+    .copy-right a{
+        padding: 8px;
+        display: inline-block;
+    }
+    .form-submit-btn{
+        padding: 15px;
+
+    }
+  
+}
 /* RESPONSIVE TABLET*/
-@media(min-width:740px) and (max-width:1024px){
+@media(min-width:46.25em) and (max-width:63.9375em){
     #header{
         width: 100vw;
         
@@ -484,10 +509,14 @@ input.modal-input {
     .row{
         margin-right: 0;
     }
+    .contact-info{
+        line-height: 2;
+    }
+
 
 }
 /* RESPONSIVE mobile*/
-@media(max-width:740px){
+@media(max-width:46.1875em){
     #header{
         overflow: hidden;   
     }
@@ -529,8 +558,18 @@ input.modal-input {
     #content .member-img{
         width: 60%;
     }
-    .s-col-full{
+    .s-col-full,.s-full-width{
         width: 100%;
+    }
+    
+    .contact-form{
+        margin-top: 32px;
+    }
+    .s-mt-8{
+        margin-top: 8px;
+    }
+    .contact-info{
+        line-height: 2;
     }
   
 
