@@ -494,6 +494,7 @@ input.modal-input {
     .form-submit-btn{
         padding: 15px;
         -webkit-appearance: none;
+        appearance: none;
 
     }
   
