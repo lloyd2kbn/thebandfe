@@ -175,7 +175,8 @@ html{
    
 }
 #slider .text-description{
-    text-shadow: 1 1 3px black;
+    color: white;
+    text-shadow: 0 0 5px #41ff1f;
 }
 /* Content */
 #content{
